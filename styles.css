@@ -1,0 +1,22 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.logo {
+    max-width: 200px;
+    margin: 50px auto;
+}
+.logo img {
+    display: block;
+    width: 100%;
+}
+.name {
+    font-size: 48px;
+    margin: 50px 0 20px 0;
+}
+.coming-soon {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
