@@ -4,6 +4,11 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+p {
+    padding-top: 10%;
+    align-items: center;
+    max-width: 200px;
+}
 .logo {
     max-width: 200px;
     margin: 50px auto;
@@ -36,10 +41,38 @@ footer {
     left: 0;
     width: 100%;
     padding: 10px;
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: black;
 }
 #loading {
     font-size: 24px;
     margin-top: 30px;
+  }
+  /*The typing effect of YGM performance */
+  .wrapper {
+    height: 10vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
   }
